@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class GetStartedActivity extends AppCompatActivity {
 
-    Button btn_sign_in, btn_new_acc;
+    private Button btn_sign_in, btn_new_acc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

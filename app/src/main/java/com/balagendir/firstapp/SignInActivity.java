@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class SignInActivity extends AppCompatActivity {
 
-    TextView btn_new_acc;
+    private TextView btn_new_acc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
