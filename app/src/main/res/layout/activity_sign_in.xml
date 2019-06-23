@@ -45,6 +45,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/grey"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -54,6 +55,7 @@
 
             <EditText
                 android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_item"
@@ -70,6 +72,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/grey"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -78,6 +81,8 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_item"
@@ -101,6 +106,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/new_acc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
