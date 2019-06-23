@@ -148,39 +148,38 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn_back"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_btn_secondary"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-        
-        <LinearLayout
-            android:gravity="center"
-            android:background="@drawable/bg_btn_secondary"
-            android:layout_width="70dp"
-            android:layout_height="55dp">
 
-            <ImageView
-                android:src="@drawable/ic_back"
-                android:layout_width="30dp"
-                android:layout_height="30dp" />
-
-        </LinearLayout>
-
-        <Button
-            android:layout_marginLeft="@android:dimen/app_icon_size"
-            android:layout_width="248dp"
-            android:layout_height="55dp"
-            android:background="@drawable/bg_btn_primary"
-            android:fontFamily="@font/mmedium"
-            android:text="continue"
-            android:textColor="#FFF"
-            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_btn_primary"
+        android:fontFamily="@font/mmedium"
+        android:text="continue"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
