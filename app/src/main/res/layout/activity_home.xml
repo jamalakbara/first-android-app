@@ -164,6 +164,7 @@
                     android:layout_height="wrap_content">
 
                     <LinearLayout
+                        android:id="@+id/candi"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:orientation="vertical"
