@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ProfileActivity"></activity>
         <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".EditProfileActivity"></activity>
         <activity android:name=".TicketSuccessActivity" />
         <activity android:name=".TicketDetailActivity" />
         <activity android:name=".TicketCheckoutActivity" />
